@@ -6,7 +6,7 @@ Only the latest release receives security fixes.
 
 ## Reporting a vulnerability
 
-Please **do not** open a public issue. Report it privately through [GitHub security advisories](https://github.com/thecoder30ec4/Model-router-python/security/advisories/new). You can expect a first response within 7 days.
+Please **do not** open a public issue. Report it privately through [GitHub security advisories](https://github.com/TheCoder30ec4/model_router_python/security/advisories/new). You can expect a first response within 7 days.
 
 ## How this library handles your keys
 

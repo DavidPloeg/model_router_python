@@ -4,7 +4,7 @@
 #   1. On https://pypi.org/manage/account/publishing/ add a "pending publisher":
 #        PyPI project name: model-router-python
 #        Owner:             <your GitHub user or org>
-#        Repository:        Model-router-python
+#        Repository:        model_router_python
 #        Workflow:          deployment.yml
 #        Environment:       pypi
 #   2. In GitHub: Settings -> Environments -> New environment "pypi"

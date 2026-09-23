@@ -22,9 +22,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/thecoder30ec4/Model-router-python"
-Issues = "https://github.com/thecoder30ec4/Model-router-python/issues"
-Changelog = "https://github.com/thecoder30ec4/Model-router-python/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/TheCoder30ec4/model_router_python"
+Issues = "https://github.com/TheCoder30ec4/model_router_python/issues"
+Changelog = "https://github.com/TheCoder30ec4/model_router_python/blob/main/CHANGELOG.md"
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.6"]
@@ -46,6 +46,8 @@ pythonpath = ["src"]
 [tool.ruff]
 line-length = 110
 target-version = "py312"
+# Code blocks in docs are hand-aligned for reading; lint/format only .py files.
+extend-exclude = ["*.md"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "B", "UP", "RUF"]

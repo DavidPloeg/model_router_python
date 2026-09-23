@@ -15,5 +15,5 @@ All notable changes to this project are documented here. The format follows [Kee
 - `router.api_key_for(model_id)` returns your key for the chosen model's provider.
 - Examples for basic routing and agents (plan-and-execute, multi-turn chat, fallback).
 
-[Unreleased]: https://github.com/thecoder30ec4/Model-router-python/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/thecoder30ec4/Model-router-python/releases/tag/v0.1.0
+[Unreleased]: https://github.com/TheCoder30ec4/model_router_python/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/TheCoder30ec4/model_router_python/releases/tag/v0.1.0

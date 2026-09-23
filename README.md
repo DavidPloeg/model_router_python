@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/thecoder30ec4/Model-router-python/main/docs/logo.svg" alt="model-router-python logo" width="120">
+  <img src="https://raw.githubusercontent.com/TheCoder30ec4/model_router_python/main/docs/logo.svg" alt="model-router-python logo" width="120">
 </p>
 
 <h1 align="center">model-router-python</h1>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/thecoder30ec4/Model-router-python/actions/workflows/ci.yml"><img src="https://github.com/thecoder30ec4/Model-router-python/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/TheCoder30ec4/model_router_python/actions/workflows/ci.yml"><img src="https://github.com/TheCoder30ec4/model_router_python/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/v/model-router-python" alt="PyPI"></a>
   <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/pyversions/model-router-python" alt="Python versions"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
@@ -69,8 +69,8 @@ uv add model-router-python
 Requires Python 3.12+ and has no dependencies. To install from source:
 
 ```bash
-git clone https://github.com/thecoder30ec4/Model-router-python.git
-cd Model-router-python
+git clone https://github.com/TheCoder30ec4/model_router_python.git
+cd model_router_python
 pip install -e .
 ```
 

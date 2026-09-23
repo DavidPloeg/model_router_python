@@ -6,4 +6,4 @@ In short: be respectful and welcoming, assume good intent, give constructive fee
 
 ## Reporting
 
-If someone's behavior concerns you, report it privately to the maintainers through a [private security advisory](https://github.com/thecoder30ec4/Model-router-python/security/advisories/new) or by contacting the repository owner on GitHub. Reports are handled confidentially. Maintainers may remove content, or temporarily or permanently ban contributors, for behavior they judge inappropriate.
+If someone's behavior concerns you, report it privately to the maintainers through a [private security advisory](https://github.com/TheCoder30ec4/model_router_python/security/advisories/new) or by contacting the repository owner on GitHub. Reports are handled confidentially. Maintainers may remove content, or temporarily or permanently ban contributors, for behavior they judge inappropriate.

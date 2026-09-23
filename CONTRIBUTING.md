@@ -5,8 +5,8 @@ Thanks for helping improve model-router-python! Bug reports, docs fixes, new tes
 ## Set up
 
 ```bash
-git clone https://github.com/thecoder30ec4/Model-router-python.git
-cd Model-router-python
+git clone https://github.com/TheCoder30ec4/model_router_python.git
+cd model_router_python
 uv sync --group dev          # creates .venv with pytest and ruff
 ```
 
