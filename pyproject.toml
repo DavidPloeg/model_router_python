@@ -23,6 +23,7 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/TheCoder30ec4/model_router_python"
+Documentation = "https://thecoder30ec4.github.io/model_router_python/"
 Issues = "https://github.com/TheCoder30ec4/model_router_python/issues"
 Changelog = "https://github.com/TheCoder30ec4/model_router_python/blob/main/CHANGELOG.md"
 

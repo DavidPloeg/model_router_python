@@ -14,7 +14,10 @@
   <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/v/model-router-python" alt="PyPI"></a>
   <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/pyversions/model-router-python" alt="Python versions"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
+  <a href="https://thecoder30ec4.github.io/model_router_python/"><img src="https://img.shields.io/badge/docs-website-0f766e" alt="Docs"></a>
 </p>
+
+<p align="center"><a href="https://thecoder30ec4.github.io/model_router_python/"><strong>Read the docs →</strong></a></p>
 
 ---
 
