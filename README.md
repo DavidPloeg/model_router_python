@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="https://github.com/TheCoder30ec4/model_router_python/actions/workflows/ci.yml"><img src="https://github.com/TheCoder30ec4/model_router_python/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/v/model-router-python" alt="PyPI"></a>
-  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/pyversions/model-router-python" alt="Python versions"></a>
+  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/v/model-router-python?cacheSeconds=3600" alt="PyPI"></a>
+  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/pyversions/model-router-python?cacheSeconds=3600" alt="Python versions"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
   <a href="https://thecoder30ec4.github.io/model_router_python/"><img src="https://img.shields.io/badge/docs-website-0f766e" alt="Docs"></a>
 </p>
