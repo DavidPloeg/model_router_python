@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="https://github.com/TheCoder30ec4/model_router_python/actions/workflows/ci.yml"><img src="https://github.com/TheCoder30ec4/model_router_python/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/v/model-router-python" alt="PyPI"></a>
-  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/pyversions/model-router-python" alt="Python versions"></a>
+  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/v/model-router-python?cacheSeconds=3600" alt="PyPI"></a>
+  <a href="https://pypi.org/project/model-router-python/"><img src="https://img.shields.io/pypi/pyversions/model-router-python?cacheSeconds=3600" alt="Python versions"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
   <a href="https://thecoder30ec4.github.io/model_router_python/"><img src="https://img.shields.io/badge/docs-website-0f766e" alt="Docs"></a>
 </p>
@@ -181,7 +181,11 @@ These are real outputs from `examples/basic.py`.
 | `router.fitting(task, limits=None) -> list[ModelInfo]` | Returns the models that pass the limits, without calling Jev (free). |
 | `Limits(output_tokens=1024, max_cost_usd=None)` | The output size you expect and an optional cost cap for each call. |
 
-Errors (all subclasses of `RouterError`):
+`Limits` validates its arguments when created: `output_tokens` must be an integer of at least 1,
+and `max_cost_usd` must be `None` (no cost cap) or a nonnegative `int` or `float` (zero is allowed).
+Booleans and NaN are rejected. Invalid limits raise `ValueError` with the field name and required range.
+
+Routing errors (all subclasses of `RouterError`):
 - `NoModelFitsError`: no model passes the limits. The message gives the reason for each model.
 - `UnknownModelError`: a model id isn't on OpenRouter.
 - `RouterError`: no routing key, a network or HTTP failure, or an error returned by Jev (e.g. a rate limit).

@@ -38,9 +38,15 @@ class Limits:
     max_cost_usd: float | None = None
 
     def __post_init__(self):
-        if self.output_tokens < 1:
-            raise ValueError(f"'output_tokens' expected positive integer, got '{self.output_tokens}'")
-        if self.max_cost_usd is None:
-            pass
-        elif self.max_cost_usd < 0:
-            raise ValueError(f"'max_cost_usd' expected positive integer, got '{self.max_cost_usd}'")
+        if (
+            isinstance(self.output_tokens, bool)
+            or not isinstance(self.output_tokens, int)
+            or self.output_tokens < 1
+        ):
+            raise ValueError("output_tokens must be an integer >= 1")
+        if self.max_cost_usd is not None and (
+            isinstance(self.max_cost_usd, bool)
+            or not isinstance(self.max_cost_usd, (int, float))
+            or not self.max_cost_usd >= 0
+        ):
+            raise ValueError("max_cost_usd must be None or a number >= 0")
